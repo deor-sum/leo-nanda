@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  background-color: #faf9f7;
+}
+
+.magic-display {
+  opacity:0;
+}
+  
+
+.WF1{
+  font-family: 'Dancing Script', cursive;
+  font-size:62px;
+  color: #e0b557;
+}
+
+.WF2{
+  font-family: 'Dancing Script', cursive;
+  font-size:42px;
+  color: #e0b557;
+}
+
+.WF3{
+  font-family: 'Dancing Script', cursive;
+  font-size:32px;
+  color: #e0b557;
+}
+.head-wf{
+  font-family: 'Playfair Display', serif;
+  padding-top: 100px;
+}
+
+.wdcardhead{
+  background-color: #000000;
+  color: white;
+  padding: 10px 1.25rem !important;
+}
+.wdcardconten{
+  line-height: 1.6 !important;
+  height: 155px;
+  padding: 35px;
+}
+
+.card{
+  border: 2px solid burlywood !important;
+}
+
+.wdscroll{
+  position: absolute;
+  bottom: 50px;
+  left: 47.5%;
+  color: white !important;
+  opacity: 0.6;
+}
+
+section{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.wdhead{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url('image/bg.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-bottom: 20px;;
+}
+
+.wdcouple{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wdcard{
+  margin: auto;
+}
+
+button {
+  z-index: 99999999999999;
+  font-size: 16px;
+  color: #eee;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  background: rgba(218, 171, 31,0.8);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
+
+button.fade:hover {
+  opacity: 0.8;
+}
+
+.pdt-5{
+  padding-top: 5px;
+}
+
+.pdt-10{
+  padding-top: 10px;
+}
+
+
+.pdt-20{
+  padding-top: 20px;
+}
+
+.pdb-10{
+  padding-top: 20px;
+}
+
+
+@media (min-width: 992px){
+  .wdhead{
+    height: 100vh;
+    padding: 0;
+  }
+
+  .wdimage{
+    width: 100%;height: 300px;object-fit: cover;
+  }
+
+  .qr{
+    height: 235px;
+  }
+}
+
+@media (max-width:991px){
+  .wdimage{
+    padding-bottom: 20px; height: 500px; width: 100%; object-fit: cover;
+  }
+
+  .wdcardconten{
+    height: 150px;
+    padding: 20px;
+  }
+
+  .wdscroll{
+    left: 45%;
+  }
+
+  #mapid{
+    height: 50%;
+    width: 100%;
+  }
+  .hide{
+    display: none;
+  }
+}
